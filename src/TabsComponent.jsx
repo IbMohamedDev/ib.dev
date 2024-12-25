@@ -14,12 +14,14 @@ const TabsComponent = () => {
          <h1 >Welcome!</h1>
           <p>My name is Ibrahim Mohamed <em></em>
 and I found a  passion for programming while working in tech support. 👨🏾‍💻</p>
-       <p>Find me on: Github, LinkedIn and download my Resume</p>         
+       <p>Find me on:<a href='https://github.com/IbMohamedDev'><u> Github,</u>  </a>
+      <a href='https://www.linkedin.com/in/ib13mohamed'><u>
+      LinkedIn </u></a> and download my Resume</p>         
 
 
 <h3>My tech stack:</h3>
 <img width={40}  src='imgs/js.svg'></img>
-<img width={50} height={40}  src='imgs/react.svg'></img>
+<img width={50} height={40}  src='../imgs/react.svg'></img>
 <img width={40}  src='imgs/nodejs.svg'></img>
 <img width={40}  src='imgs/html.svg'></img>
 <img width={40}  src='imgs/mongodb.svg'></img>
