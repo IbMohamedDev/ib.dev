@@ -1,13 +1,28 @@
 import React, { useState } from 'react';
 import './index.css';
 import Project from './components/Project';
+import Tippy from '@tippyjs/react';
+import JS from '../imgs/js.svg'
+import ReactJS from '../imgs/react.png'
+import Node from '../imgs/nodejs.svg'
+import MongoDB from '../imgs/mongodb.svg'
+import HTML5 from '../imgs/html.svg'
+import PY from '../imgs/python.png'
+import AWS from '../imgs/aws.png'
+import DOCKER from '../imgs/docker.svg'
+import SPARK from '../imgs/spark.png'
+import GIT from '../imgs/git.svg'
+import COMPUTERLOGO from '../imgs/laptop.gif'
+import GITHUB from '../imgs/github.png'
+
+
 
 const TabsComponent = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabData = [
     {
-      label: <img src='imgs/laptop.gif' width={33}></img>,
+      label: <img src={COMPUTERLOGO} width={33}></img>,
       content: (
         <>
          
@@ -20,19 +35,19 @@ and I found a  passion for programming while working in tech support. 👨🏾�
 
 
 <h3>My tech stack:</h3>
-<img width={40}  src='imgs/js.svg'></img>
-<img width={50} height={40}  src='../imgs/react.svg'></img>
-<img width={40}  src='imgs/nodejs.svg'></img>
-<img width={40}  src='imgs/html.svg'></img>
-<img width={40}  src='imgs/mongodb.svg'></img>
-<img  width={35} src='./imgs/python.png'></img>
-<img width={50} src='./imgs/aws.svg.png'></img>
-<img width={40} src='./imgs/git.svg'></img>
-<img width={50} src='./imgs/spark.png'></img>
-<img width={50} src='./imgs/docker.svg'></img>
-<img width={40}  src='imgs/css.svg'></img>
+<img src={JS} alt="JavaScript" width={40}/>
+<img src={ReactJS} alt="React"width={40} />
+<img src={Node} alt="Node.js"width={40} />
+<img src={HTML5} alt="HTML5" width={40}/>
+<img src={MongoDB} alt="MongoDB"width={40} />
+<img src={PY} alt="Python"width={40} />
+<img src={AWS} alt="AWS"width={40} />
+<img src={GIT} alt="Git" width={40} />
+<img src={SPARK} alt="Spark" width={40} />
+<img src={DOCKER} alt="Docker" width={40} />
 
-
+          
+            
 
 
 
@@ -48,15 +63,15 @@ and I found a  passion for programming while working in tech support. 👨🏾�
         <div className='container'>
 
       <Project 
-      title="Easy Moving 🚚" img="./imgs/github.png" 
+      title="Easy Moving 🚚" img={GITHUB}
       info="Fullstack Customer Relationship Managmenet (CRM) application."
       project_link="/"
       github="https://github.com/example"
       />
-      <Project title="Habit Tracker ❌" project_info="/" img="./imgs/github.png" info="Habit tracker based on the seinfield method."/>
-      <Project title="React calculator 🧮" project_info="/" img="./imgs/github.png" info="React component compromised of calculator UI and logic."/>
-      <Project title="Project 4" project_info="/" img="./imgs/github.png" info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
-      <Project title="Project 5" project_info="/" img="./imgs/github.png" info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
+      <Project title="Habit Tracker ❌" project_info="/"  img={GITHUB} info="Habit tracker based on the seinfield method."/>
+      <Project title="React calculator 🧮" project_info="/"  img={GITHUB} info="React component compromised of calculator UI and logic."/>
+      <Project title="Project 4" project_info="/"  img={GITHUB} info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
+      <Project title="Project 5" project_info="/"  img={GITHUB} info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
 
          
       
