@@ -4,7 +4,7 @@ export default function Project(props) {
   return (
    
     <div className='item'>
-       <a href={props.project_info}><h3 className='title'>{props.title}</h3></a> 
+       <h3 className='title'>{props.title}</h3>
        
         <p className='p'>{props.info}</p>
        <div className='links'>

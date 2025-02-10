@@ -63,16 +63,15 @@ and I found a  passion for programming while working in tech support. 👨🏾�
         <div className='container'>
 
       <Project 
-      title="Easy Moving 🚚" img={GITHUB}
-      info="Fullstack Customer Relationship Managmenet (CRM) application."
-      project_link="/"
-      github="https://github.com/example"
+      title="Iso Analytics 🏀📊" img={GITHUB}
+      info="Fullstack NBA analytics website. Backend built with python flask,Supabase db and React frontend."
+      project_link="https://iso-analytics.vercel.app/"
+      github="https://github.com/IbMohamedDev/iso-analytics"
       />
-      <Project title="Habit Tracker ❌" project_info="/"  img={GITHUB} info="Habit tracker based on the seinfield method."/>
-      <Project title="React calculator 🧮" project_info="/"  img={GITHUB} info="React component compromised of calculator UI and logic."/>
-      <Project title="Project 4" project_info="/"  img={GITHUB} info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
-      <Project title="Project 5" project_info="/"  img={GITHUB} info="foidsfj dskfsodif sodfijsdof dosfijsdoif."/>
-
+      <Project title="Habit Tracker ❌" project_info="A habit tracker based on the seinfeld method."  img={GITHUB} info="Habit tracker based on the seinfield method."
+        project_link={'https://habit-tracker-kohl-kappa.vercel.app/'}
+         github="https://github.com/IbMohamedDev/HabitTracker"
+      />
          
       
         </div>
